@@ -13,8 +13,8 @@ func (p ProtoServer) GetSegmentInfo(c context.Context, req *pb.AdRequest) (*pb.S
 	fmt.Printf("Received an AdRequest %v\n", req)
 
 	return &pb.SupplySegment{
-		Audience:  "Soccer Mom",
-		PlaceName: "Target Encinitas",
-		PlaceType: "Shopping Center",
+		Audience:  "Dads",
+		PlaceName: "Target",
+		PlaceType: "Pizza",
 	}, nil
 }
